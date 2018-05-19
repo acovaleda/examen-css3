@@ -1,0 +1,22 @@
+body{
+	font-family: 'dancing script',cursive;
+	background-color:#02010a;
+}
+header#encabezado{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+}
+
+.contenedor{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+#imgizq{
+	padding: 20px;
+	margin: 10px;
+	width: 50%;
+	height: 50%;
+}

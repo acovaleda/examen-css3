@@ -1,0 +1,26 @@
+body{
+	font-family: 'dancing script',cursive;
+	background-color:#02010a;
+	
+}
+.contenedor{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+  }
+header#encabezado{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+
+
+}
+a.active{
+  text-decoration: none;
+}
+#principal img{
+padding: center;
+}
+footer{
+	background-color: #C6d5c5;
+}
