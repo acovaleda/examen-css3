@@ -40,34 +40,36 @@ a.active{
 #secundario{
   background-color: #d5c75f;
   border: 1px;
-  display: flex;
   flex-flow: row wrap;
-}
-
-.secundaria{
-  width: 50%;
-  margin: 4% auto;
-
+  display: flex;
 }
 
 .secundaria img{
+  width: 25%;
+  margin: 4% auto;
+  
+
+
+}
+
+.secundaria{
   border: 1px solid red;
   box-shadow: 2px 2px 2px #02010a;
 
 }
 
-#imgizq{
+#secizq{
 	transition: transform 1s;
 }
-#imgizq:hover{
+#secizq:hover{
 transform: rotate(10deg);
 box-shadow: 2px 2px 2px #82c3a6;
 border:2px solid #02010a;
 }
-#imgder{
+#secder{
 	transition: transform 1s;
 }
-#imgder:hover{
+#secder:hover{
 transform: translate(20px, 5px);
 box-shadow: 2px 2px 2px #82c3a6;
 border: 2px solid #02010a;
