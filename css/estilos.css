@@ -40,39 +40,49 @@ a.active{
 #secundario{
   background-color: #d5c75f;
   border: 1px;
-  flex-flow: row wrap;
   display: flex;
+  
+}
+
+figure.secundaria {
+    margin: 0;
+    padding: 16px 8%;
+    box-sizing: border-box;
+    width: 50%;
+}
+figcaption {
+  text-align: center;
 }
 
 .secundaria img{
-  width: 25%;
-  margin: 4% auto;
+  width: 100%;
+  margin: 0 auto;
   
 
-
 }
-
-.secundaria{
-  border: 1px solid red;
+.secundaria img{
+  border: 1px solid #82c3a6;
   box-shadow: 2px 2px 2px #02010a;
-
 }
-
 #secizq{
-	transition: transform 1s;
+  transition: transform 1s;
 }
+
 #secizq:hover{
-transform: rotate(10deg);
-box-shadow: 2px 2px 2px #82c3a6;
-border:2px solid #02010a;
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: 2px solid #02010a;
 }
+
 #secder{
-	transition: transform 1s;
+  transition: transform 1s;
 }
+
 #secder:hover{
-transform: translate(20px, 5px);
-box-shadow: 2px 2px 2px #82c3a6;
-border: 2px solid #02010a;
+  transform: translate(20px, -5px);
+  box-shadow: 2px 2px 2px #82c3a6;
+  border: 2px solid #02010a;
+  float
 }
 
 
@@ -137,8 +147,8 @@ footer div{
 }
 
 
-/*Version Movil*/
-@media (max-width:899px) {
+
+@media screen and (max-width: 899px) {
   .contenedor{
     width: 100%;
   }
@@ -150,12 +160,15 @@ footer div{
 
     padding-bottom: 10px;
   }
+
+  
   #secundario{
+    display: block;
     flex-flow: column;
     text-align: center;
   }
-  .secundaria{
-    width: 90%;
+  figure.secundaria{
+    width: 100%;
   }
   .secundaria img{
     width: 100%;
